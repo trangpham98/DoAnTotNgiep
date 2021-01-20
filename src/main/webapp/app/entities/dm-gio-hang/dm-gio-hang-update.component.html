@@ -1,0 +1,22 @@
+<div class="modal-header modal-detail-header">
+    <h4 id="jhi-dm-gio-hang-heading" jhiTranslate="sophiaApp.dmGioHang.home.createOrEditLabel"></h4>
+    <button aria-label="Close" data-dismiss="modal" class="close" type="button" (click)="dismiss()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body pad modal-detail-body">
+    <div class="col-8">
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="sophiaApp.dmGioHang.soLuong"></label>
+            <input type="number" class="form-control" name="soLuong" [(ngModel)]="soLuong.sl"/>
+        </div>
+    </div>
+</div>
+<div class="modal-footer modal-detail-footer">
+    <button data-dismiss="modal" ngbAutofocus class="btn btn-secondary float-left" type="button" (click)="dismiss()">
+        <span jhiTranslate="entity.action.cancel"></span>
+    </button>
+    <button class="btn btn-primary float-left" type="button" (click)="saveSl()">
+        <span jhiTranslate="entity.action.save"></span>
+    </button>
+</div>

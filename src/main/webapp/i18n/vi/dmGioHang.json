@@ -1,0 +1,30 @@
+{
+  "sophiaApp": {
+    "dmGioHang": {
+      "home": {
+        "title": "GIỎ HÀNG",
+        "createLabel": "Thêm mới một Dm Gio Hang",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Dm Gio Hang",
+        "notFound": "No Dm Gio Hangs found"
+      },
+      "created": "Một Dm Gio Hang mới được tạo với định danh {{ param }}",
+      "updated": "Một Dm Gio Hang cập nhật với định danh {{ param }}",
+      "deleted": "Một Dm Gio Hang đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Dm Gio Hang {{ id }}?"
+      },
+      "detail": {
+        "title": "Dm Gio Hang"
+      },
+      "login": "Login",
+      "dmSanPhamId": "Dm San Pham Id",
+      "anhSp": "Ảnh",
+      "soLuong": "Số lượng",
+      "gia": "Giá",
+      "chiTiet": "Chi tiết sản phẩm",
+      "hoaDonId": "Hoa Don Id",
+      "tongTien": "Tổng tiền",
+      "thanhTien": "Thành tiền"
+    }
+  }
+}
